@@ -1,0 +1,75 @@
+{
+  "name": "wd-input",
+  "version": "0.1.1",
+  "private": true,
+  "scripts": {
+    "build": "webpack ./src/main.js"
+  },
+  "main": "./dist/wd.common.js",
+  "files": [
+    "src/*",
+    "dist/*",
+    "*.json",
+    "*.js"
+  ],
+  "dependencies": {
+    "core-js": "^3.6.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^24.7.1",
+    "babel-loader": "^8.2.2",
+    "babel-preset-vue": "^2.0.2",
+    "css-loader": "^5.0.1",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-vue": "^6.2.2",
+    "expect": "^24.7.1",
+    "jsdom": "14.0.0",
+    "jsdom-global": "3.0.2",
+    "mini-css-extract-plugin": "^1.3.3",
+    "node-sass": "^4.12.0",
+    "prettier": "^1.19.1",
+    "sass": "^1.30.0",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.10.1",
+    "webpack-cli": "^4.2.0",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8",
+    "not dead"
+  ],
+  "_id": "wd-input@0.1.1",
+  "bugs": {
+    "url": "https://github.com/junathaan/wd-input/issues"
+  },
+  "homepage": "https://github.com/junathaan/wd-input#readme",
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junathaan/wd-input.git"
+  }
+}
