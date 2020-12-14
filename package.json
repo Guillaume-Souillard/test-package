@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "private": true,
   "scripts": {
-    "build": "webpack ./src/main.js"
+    "build": "webpack"
   },
   "main": "./dist/wd.common.js",
   "files": [
